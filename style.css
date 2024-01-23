@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Red+Hat+Display:wght@500;700;900&display=swap");
+html {
+  font-size: 10px;
+}
+body {
+  background-color: #ecf2ff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Hanken Grotesk";
+}
+
+.mainbox {
+  background-color: #fff;
+  box-shadow: 0px 30px 60px 0px rgba(61, 108, 236, 0.15);
+  height: 512px;
+  width: 736px;
+  border-radius: 32px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.lefthalf {
+  background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lefthalf h1 {
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin-top: 38px;
+  color: rgba(202, 201, 255, 1);
+}
+
+.averagescore {
+  background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
+  box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
+  width: 200px;
+  height: 200px;
+  margin-top: 35px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.averagescore h2 {
+  font-weight: 800;
+  font-size: 7.2rem;
+  color: white;
+}
+
+.averagescore span {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: rgba(202, 201, 255, 1);
+}
+
+.maintext {
+  width: 260px;
+  height: 134px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.maintext span {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-top: 28px;
+  color: white;
+}
+
+.maintext p {
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: rgba(202, 201, 255, 1);
+  line-height: 24px;
+  text-align: center;
+  margin-top: 14px;
+}
+
+.righthalf {
+  background-color: white;
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  margin-left: 368px;
+  border-radius: 32px;
+}
+
+.righthalf h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: rgba(48, 59, 89, 1);
+  margin-top: 35px;
+  margin-left: 40px;
+}
+
+.information {
+  width: 288px;
+  height: 272px;
+  margin-left: 40px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.boxes {
+  width: 288px;
+  height: 56px;
+  border-radius: 12px;
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boxes div {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.paragrap {
+  color: #303b59;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.p-span {
+  margin-left: 10px;
+  color: rgb(105, 105, 120);
+}
+
+#first {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #ff5555;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#first img {
+  margin: 0px 15px;
+}
+
+.reaction {
+  color: #ff5555;
+  font-weight: 500;
+}
+
+#second {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #ffb21e;
+}
+
+#second img {
+  margin: 0px 15px;
+}
+
+.memory {
+  color: #ffb21e;
+  font-weight: 500;
+}
+
+#third {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #00bb8f;
+}
+
+#third img {
+  margin: 0px 15px;
+}
+
+.verbal {
+  color: #00bb8f;
+  font-weight: 500;
+}
+
+#fourth {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #1125d6;
+}
+
+#fourth img {
+  margin: 0px 15px;
+}
+
+.visual {
+  color: #1125d6;
+  font-weight: 500;
+}
+
+.continue {
+  background-color: #303b59;
+  width: 288px;
+  height: 56px;
+  margin-top: 41px;
+  margin-left: 40px;
+  border-radius: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.continue:hover {
+  background: linear-gradient(180deg, #75f 0%, #6943ff 0.01%, #2f2ce9 100%);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.continue span {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+@media (max-width: 700px) {
+  .mainbox {
+    height: 809px;
+    width: 375px;
+    flex-direction: column;
+    box-shadow: none;
+  }
+
+  .lefthalf {
+    width: 100%;
+    height: 356px;
+    border-radius: 0px 0px 32px 32px;
+    background: linear-gradient(180deg, #75f 0%, #6943ff 0.01%, #2f2ce9 100%);
+    box-shadow: 0px 30px 60px 0px rgba(61, 108, 236, 0.15);
+  }
+
+  .lefthalf h1 {
+    margin-top: 24px;
+    color: #cac9ff;
+    font-size: 18px;
+  }
+
+  .averagescore {
+    fill: linear-gradient(
+      180deg,
+      #4d21c9 0%,
+      rgba(37, 33, 201, 0) 100%,
+      rgba(37, 33, 201, 0) 100%
+    );
+    width: 140px;
+    height: 140px;
+    margin-top: 24px;
+  }
+
+  .averagescore span {
+    font-size: 16px;
+  }
+
+  .averagescore h2 {
+    font-size: 56px;
+  }
+
+  .maintext {
+    height: 105px;
+  }
+
+  .maintext p {
+    font-size: 16px;
+  }
+
+  .maintext span {
+    font-size: 24px;
+    margin-top: 24px;
+  }
+
+  .information {
+    margin-left: 30px;
+  }
+
+  .righthalf {
+    position: relative;
+    width: 100%;
+    margin: 358px 0px 0px;
+  }
+
+  .righthalf h2 {
+    font-size: 18px;
+    margin: 24px 0px 0px 32px;
+  }
+
+  .boxes {
+    font-size: 16px;
+    width: 315px;
+  }
+
+  .continue {
+    width: 315px;
+    margin-left: 30px;
+    margin-top: 24px;
+  }
+}
